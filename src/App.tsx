@@ -497,30 +497,24 @@ ${replaced}`;
                   const el = document.getElementById('tab-learnhtml-btn');
                   el?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-7 rounded-2xl shadow-xl hover:border-cyan-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
+                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-6 rounded-2xl shadow-xl hover:border-cyan-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
               >
                 <div className="absolute top-0 left-0 w-20 h-20 bg-cyan-500/5 rounded-full blur-xl pointer-events-none" />
                 
                 <div className="space-y-4">
                   <div className="flex items-center justify-between">
                     <div className="p-3 bg-cyan-950/60 border border-cyan-800/40 text-cyan-400 rounded-xl group-hover:scale-105 transition-transform">
-                      {/* Laptop computer icon with code symbols */}
                       <Laptop className="w-5 h-5" />
                     </div>
-                    <span className="text-xs font-bold text-slate-500 font-mono">01</span>
+                    <span className="text-sm font-bold text-slate-500 font-mono">01</span>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <h4 className="font-bold text-white text-base group-hover:text-cyan-300 transition-colors">تطوير المواقع الإلكترونية</h4>
-                    <p className="text-xs text-slate-400 font-sans leading-relaxed">
+                    <p className="text-xs text-slate-400 leading-relaxed">
                       تصميم وتطوير مواقع ويب احترافية سريعة، آمنة ومتجاوبة مع جميع الأجهزة.
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-6 pt-3 border-t border-slate-800/40 flex items-center justify-between text-[11px] font-sans font-bold text-cyan-400 group-hover:text-white transition-colors">
-                  <span>تعلم وادخل محاكي الـ HTML التفاعلي</span>
-                  <span>←</span>
                 </div>
               </div>
 
@@ -531,7 +525,7 @@ ${replaced}`;
                   const el = document.getElementById('tab-article-btn');
                   el?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-7 rounded-2xl shadow-xl hover:border-indigo-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
+                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-6 rounded-2xl shadow-xl hover:border-indigo-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
               >
                 <div className="absolute top-0 left-0 w-20 h-20 bg-indigo-500/5 rounded-full blur-xl pointer-events-none" />
                 
@@ -540,20 +534,15 @@ ${replaced}`;
                     <div className="p-3 bg-indigo-950/60 border border-indigo-800/40 text-indigo-400 rounded-xl group-hover:scale-105 transition-transform">
                       <Layers className="w-5 h-5" />
                     </div>
-                    <span className="text-xs font-bold text-slate-500 font-mono">02</span>
+                    <span className="text-sm font-bold text-slate-500 font-mono">02</span>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <h4 className="font-bold text-white text-base group-hover:text-indigo-300 transition-colors">تصميم واجهات وتجربة المستخدم</h4>
-                    <p className="text-xs text-slate-400 font-sans leading-relaxed">
+                    <p className="text-xs text-slate-400 leading-relaxed">
                       تصاميم عصرية تركز على تجربة المستخدم باستخدام أفضل الممارسات.
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-6 pt-3 border-t border-slate-800/40 flex items-center justify-between text-[11px] font-sans font-bold text-indigo-400 group-hover:text-white transition-colors">
-                  <span>اقرأ مقال التخصيص والـ Customizing</span>
-                  <span>←</span>
                 </div>
               </div>
 
@@ -565,7 +554,7 @@ ${replaced}`;
                   const el = document.getElementById('tab-interactive-btn');
                   el?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-7 rounded-2xl shadow-xl hover:border-blue-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
+                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-6 rounded-2xl shadow-xl hover:border-blue-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
               >
                 <div className="absolute top-0 left-0 w-20 h-20 bg-blue-500/5 rounded-full blur-xl pointer-events-none" />
                 
@@ -574,20 +563,15 @@ ${replaced}`;
                     <div className="p-3 bg-blue-950/60 border border-blue-800/40 text-blue-400 rounded-xl group-hover:scale-105 transition-transform">
                       <Smartphone className="w-5 h-5" />
                     </div>
-                    <span className="text-xs font-bold text-slate-500 font-mono">03</span>
+                    <span className="text-sm font-bold text-slate-500 font-mono">03</span>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <h4 className="font-bold text-white text-base group-hover:text-blue-300 transition-colors">تطوير تطبيقات الموبايل</h4>
-                    <p className="text-xs text-slate-400 font-sans leading-relaxed">
+                    <p className="text-xs text-slate-400 leading-relaxed">
                       تطوير تطبيقات أصلية عالية الجودة لمنصتي Android و iOS.
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-6 pt-3 border-t border-slate-800/40 flex items-center justify-between text-[11px] font-sans font-bold text-blue-400 group-hover:text-white transition-colors">
-                  <span>تأمل مسار وخارطة وتصميم الهواتف الذكية</span>
-                  <span>←</span>
                 </div>
               </div>
 
@@ -598,7 +582,7 @@ ${replaced}`;
                   const el = document.getElementById('tab-projects-btn');
                   el?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-7 rounded-2xl shadow-xl hover:border-violet-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
+                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-6 rounded-2xl shadow-xl hover:border-violet-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
               >
                 <div className="absolute top-0 left-0 w-20 h-20 bg-violet-500/5 rounded-full blur-xl pointer-events-none" />
                 
@@ -607,20 +591,15 @@ ${replaced}`;
                     <div className="p-3 bg-violet-950/60 border border-violet-800/40 text-violet-400 rounded-xl group-hover:scale-105 transition-transform">
                       <Settings className="w-5 h-5" />
                     </div>
-                    <span className="text-xs font-bold text-slate-500 font-mono">04</span>
+                    <span className="text-sm font-bold text-slate-500 font-mono">04</span>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <h4 className="font-bold text-white text-base group-hover:text-violet-300 transition-colors">أتمتة وبرامج الإدارة</h4>
-                    <p className="text-xs text-slate-400 font-sans leading-relaxed">
+                    <p className="text-xs text-slate-400 leading-relaxed">
                       تطوير أنظمة مخصصة لإدارة العمليات وزيادة الكفاءة وتقليل التكاليف.
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-6 pt-3 border-t border-slate-800/40 flex items-center justify-between text-[11px] font-sans font-bold text-violet-400 group-hover:text-white transition-colors">
-                  <span>استكشف الحقيبة بجميع المشاريع الخمسة</span>
-                  <span>←</span>
                 </div>
               </div>
 
@@ -631,7 +610,7 @@ ${replaced}`;
                   const el = document.getElementById('tab-challenges-btn');
                   el?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-7 rounded-2xl shadow-xl hover:border-rose-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
+                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-6 rounded-2xl shadow-xl hover:border-rose-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
               >
                 <div className="absolute top-0 left-0 w-20 h-20 bg-rose-500/5 rounded-full blur-xl pointer-events-none" />
                 
@@ -640,20 +619,15 @@ ${replaced}`;
                     <div className="p-3 bg-rose-950/60 border border-rose-800/40 text-rose-400 rounded-xl group-hover:scale-105 transition-transform">
                       <Terminal className="w-5 h-5" />
                     </div>
-                    <span className="text-xs font-bold text-slate-500 font-mono">05</span>
+                    <span className="text-sm font-bold text-slate-500 font-mono">05</span>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <h4 className="font-bold text-white text-base group-hover:text-rose-300 transition-colors">حل المشاكل</h4>
-                    <p className="text-xs text-slate-400 font-sans leading-relaxed">
+                    <p className="text-xs text-slate-400 leading-relaxed">
                       حل مشكلات البرمجيات وتحسين الأداء وتقديم استشارات تقنية فعالة.
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-6 pt-3 border-t border-slate-800/40 flex items-center justify-between text-[11px] font-sans font-bold text-rose-400 group-hover:text-white transition-colors">
-                  <span>ادخل مخبر كشف أخطاء الأكواد الفعلي</span>
-                  <span>←</span>
                 </div>
               </div>
 
@@ -665,7 +639,7 @@ ${replaced}`;
                   const el = document.getElementById('tab-interactive-btn');
                   el?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-7 rounded-2xl shadow-xl hover:border-sky-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
+                className="bg-[#091223]/90 backdrop-blur-md border border-[#19273c] p-6 rounded-2xl shadow-xl hover:border-sky-500/40 transition-all duration-300 cursor-pointer group relative overflow-hidden flex flex-col justify-between"
               >
                 <div className="absolute top-0 left-0 w-20 h-20 bg-sky-500/5 rounded-full blur-xl pointer-events-none" />
                 
@@ -674,20 +648,15 @@ ${replaced}`;
                     <div className="p-3 bg-sky-950/60 border border-sky-850/40 text-sky-400 rounded-xl group-hover:scale-105 transition-transform">
                       <Sparkles className="w-5 h-5 text-sky-400" />
                     </div>
-                    <span className="text-xs font-bold text-slate-500 font-mono">06</span>
+                    <span className="text-sm font-bold text-slate-500 font-mono">06</span>
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-1.5">
                     <h4 className="font-bold text-white text-base group-hover:text-sky-300 transition-colors">أدوات الذكاء الاصطناعي</h4>
-                    <p className="text-xs text-slate-400 font-sans leading-relaxed">
+                    <p className="text-xs text-slate-400 leading-relaxed">
                       أدوات ذكية تعتمد على الذكاء الاصطناعي لتحليل البيانات واتخاذ قرارات أفضل.
                     </p>
                   </div>
-                </div>
-
-                <div className="mt-6 pt-3 border-t border-[#19273c]/40 flex items-center justify-between text-[11px] font-sans font-bold text-sky-400 group-hover:text-white transition-colors">
-                  <span>تصفح مسار دمج الذكاء والـ Generative API</span>
-                  <span>←</span>
                 </div>
               </div>
 
