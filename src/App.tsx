@@ -80,11 +80,19 @@ export default function App() {
 
   // Save states to LocalStorage
   useEffect(() => {
-    localStorage.setItem('cs_mentor_checked_tasks', JSON.stringify(checkedTasks));
+    try {
+      localStorage.setItem('cs_mentor_checked_tasks', JSON.stringify(checkedTasks));
+    } catch (e) {
+      console.warn('Unable to write to localStorage:', e);
+    }
   }, [checkedTasks]);
 
   useEffect(() => {
-    localStorage.setItem('cs_mentor_completed_projects', JSON.stringify(completedProjects));
+    try {
+      localStorage.setItem('cs_mentor_completed_projects', JSON.stringify(completedProjects));
+    } catch (e) {
+      console.warn('Unable to write to localStorage:', e);
+    }
   }, [completedProjects]);
 
   // Generate dynamic customized HTML for copy
