@@ -31,6 +31,7 @@ import {
 } from 'lucide-react';
 import HTMLGuide from './components/HTMLGuide';
 import { RAW_CONTENT_HTML, ROADMAP_STEPS, RESOURCES_LIST, STARTER_PROJECTS, DEBUG_CHALLENGES } from './content';
+import boardroomHero from './assets/images/boardroom_hero_1781446489559.jpg';
 
 export default function App() {
   // Navigation Tabs
@@ -453,7 +454,7 @@ ${replaced}`;
                   {/* Arch Panel 1 - left slice */}
                   <div 
                     className="rounded-t-full h-[260px] bg-cover bg-left border border-slate-700/30 shadow-2xl overflow-hidden relative group transition-transform duration-500 hover:scale-[1.03]"
-                    style={{ backgroundImage: `url('./assets/images/boardroom_hero_1781446489559.jpg')` }}
+                    style={{ backgroundImage: `url(${boardroomHero})` }}
                   >
                     <div className="absolute inset-0 bg-slate-950/10 group-hover:bg-transparent transition-colors" />
                   </div>
@@ -461,7 +462,7 @@ ${replaced}`;
                   {/* Arch Panel 2 - center/tallest slice */}
                   <div 
                     className="rounded-t-full h-[310px] bg-cover bg-center border border-cyan-500/20 shadow-2xl overflow-hidden relative -translate-y-4 group transition-transform duration-500 hover:scale-[1.03]"
-                    style={{ backgroundImage: `url('./assets/images/boardroom_hero_1781446489559.jpg')` }}
+                    style={{ backgroundImage: `url(${boardroomHero})` }}
                   >
                     <div className="absolute inset-0 bg-slate-950/10 group-hover:bg-transparent transition-colors" />
                     <div className="absolute inset-x-0 bottom-4 text-center">
@@ -474,7 +475,7 @@ ${replaced}`;
                   {/* Arch Panel 3 - right slice */}
                   <div 
                     className="rounded-t-full h-[240px] bg-cover bg-right border border-slate-700/30 shadow-2xl overflow-hidden relative group transition-transform duration-500 hover:scale-[1.03]"
-                    style={{ backgroundImage: `url('./assets/images/boardroom_hero_1781446489559.jpg')` }}
+                    style={{ backgroundImage: `url(${boardroomHero})` }}
                   >
                     <div className="absolute inset-0 bg-slate-950/10 group-hover:bg-transparent transition-colors" />
                   </div>
