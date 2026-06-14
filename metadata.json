@@ -1,0 +1,6 @@
+{
+  "name": "خارطة طريق تعلم البرمجة من الصفر",
+  "description": "خارطة طريق شاملة وعملية للمبتدئين للتعلم من الصفر وحتى الاحتراف مع مصادر مجانية وجدول زمني وأفكار مشاريع وكود HTML جاهز للنسخ متوافق مع معايير السيو.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
